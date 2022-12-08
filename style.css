@@ -1,0 +1,30 @@
+body {
+    background-color: #666;
+
+    font-size: 16px;
+    font-family: system-ui, sans-serif;
+    line-height: 1.6;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.box {
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+
+    border: 2px solid;
+    color: #ddd;
+    background-color: #000;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
